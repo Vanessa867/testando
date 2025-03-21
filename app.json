@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "testando",
+    "slug": "testando",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -9,13 +9,15 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.vanessaaa.testando"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.vanessaaa.testando"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +38,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f2641b8b-3263-4dbd-88e5-8279d38d9562"
+      }
+    },
+    "owner": "vanessaaa",
+    "updates": {
+      "url": "https://u.expo.dev/f2641b8b-3263-4dbd-88e5-8279d38d9562"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
